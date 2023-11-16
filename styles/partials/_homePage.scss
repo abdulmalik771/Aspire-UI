@@ -1,10 +1,16 @@
 // Hero Content
+.heroSection {
+  // height: 90vh;
+}
 .heroContentContainer {
   display: flex;
   justify-content: space-between;
-  margin-top: 10rem;
+  margin-block: 10rem;
   padding-inline: 4rem;
   align-items: center;
+  height: 100%;
+  width: 90%;
+  margin-inline: auto;
 }
 .heroLeftContent {
   width: 40%;
@@ -70,7 +76,7 @@
 // Components Sneakpeek
 .sneakPeek {
   @include flexCenter(column);
-  margin-top: 10rem;
+  margin-top: 5rem;
   justify-content: flex-start;
   padding-top: 10rem;
   h2 {
